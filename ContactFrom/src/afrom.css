@@ -1,0 +1,95 @@
+.contact-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 40px;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px; /* Reduced from 8px to 4px */
+  display: block;
+}
+
+.form-group .form-label {
+  margin-bottom: 2px; /* Even closer than before */
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px #007bff33;
+  outline: none;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  width: 80px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.form-row .form-control {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+.contact-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact-form textarea.form-control {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}

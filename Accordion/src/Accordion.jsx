@@ -11,7 +11,7 @@ function Accordion() {
   },[]);
 
   const handleToggle = (id) => {
-      setActiveId((prevId) => (prevId === id ? false : id));
+     setActiveId((prevId) => (prevId === id ? false : id));
   };
 
   return (
