@@ -24,11 +24,14 @@ function Bmi() {
   let getCategory =(value)=> {
      if(value < 18.5) {
          return "Underweight";
-     } else if (value >= 18.5 && value < 24.9) {
+     } 
+     else if (value >= 18.5 && value < 24.9) {
          return "Normal weight";
-     } else if (value >= 25 && value < 29.9) {
+     } 
+     else if (value >= 25 && value < 29.9) {
          return "Overweight";
-     } else {
+     } 
+     else {
          return "Obesity";
      }
   }
@@ -69,7 +72,7 @@ function Bmi() {
                 <button onClick={Reset}>Reset</button>
             </div>
             {bmi && (
-                <div>
+                <div className="buttons">
                     <h2> Your BMI : {bmi} </h2>
                     <h2> Category : {category} </h2>
                 </div>
